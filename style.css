@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    /* font-family: sans-serif; */
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -44,19 +44,38 @@ main {
     /* background-color: cornflowerblue; */
     z-index: 10;
     /* opacity: 1; */
+    padding: 1rem;
+
+    text-align: center;
 }
 
 
 main .pumpkin-img {
-    height: 80%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
 }
 
 main .pumpkin-img img {
     height: 100%;
 }
 
-main .happy {
+main .happy h1,
+main .halloween h1 {
+    position: absolute;
     font-family: "Nosifer", sans-serif;
-    font-size: 4rem;
+    font-size: 9rem;
     font-weight: 1000;
+
+    margin: 0;
+}
+
+
+main .wish-text {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
