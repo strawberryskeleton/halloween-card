@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 *,
 *::before,
@@ -6,16 +6,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* font-family: sans-serif; */
 }
 
 
 body {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     background-color: #000;
-    /*👉background: url('./assets/bg.jpg');
+    background: url('./assets/bg.jpg');
     background-size: cover;
-    backdrop-filter: blur(3px);👈*/
+    /* backdrop-filter: blur(3px); */
 }
 
 body::before {
@@ -25,8 +28,35 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    background: url('./assets/bg.jpg');
-    background-size: cover;
-    opacity: 0.5;
-    /* z-index: 10; */
+    background: rgba(0, 0, 0, 0.5);
+    /* background: url('./assets/bg.jpg'); */
+    /* background-size: cover; */
+    /* opacity: 0.5; */
+    z-index: 1;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: aliceblue;
+    /* background-color: cornflowerblue; */
+    z-index: 10;
+    /* opacity: 1; */
+}
+
+
+main .pumpkin-img {
+    height: 80%;
+}
+
+main .pumpkin-img img {
+    height: 100%;
+}
+
+main .happy {
+    font-family: "Nosifer", sans-serif;
+    font-size: 4rem;
+    font-weight: 1000;
 }
