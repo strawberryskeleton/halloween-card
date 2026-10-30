@@ -7,7 +7,7 @@ a website to serve as a card to wish people on halloween
 - custom font + favicon
 
 ## Screenshot
-![](./assets/project_screenshot.png)
+![image](./assets/project_ss_update.png)
 
 ## Run Locally
 1. clone the repo
