@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Halloween</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./assets/ghost2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <main>
@@ -17,16 +18,32 @@
             <div class="main-text">
                 <h1>HAPPY <br> HALLOWEEN</h1>
             </div>
+
+            <div class="user-details">
+                my dear <span id="user-name">John Doe</span>!
+            </div>
         </div>
 
         <div class="pumpkin-img">
-            <img src="./assets/ghost2.png" alt="ghost">
+            <img src="./assets/ghost2.png" alt="ghost" id="main-img">
         </div>
 
         <!-- <div class="halloween">
             <h1>HALLOWEEN</h1>
         </div> -->
     </main>
+
+    <!-- theme change btn -->
+    <div class="theme">
+        <div id="theme-btn">
+            <img src="./assets/palette-fill.svg" alt="palette">
+        </div>
+
+        <div class="theme-menu">
+            <div id="ghost"></div>
+            <div id="pumpkin"></div>
+        </div>
+    </div>
 
     <!-- <footer></footer> -->
 </body>

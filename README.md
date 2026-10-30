@@ -3,11 +3,14 @@ a website to serve as a card to wish people on halloween
 
 ## Features
 - ghost glow text
-- floating ghost animation
+- floating main img animation
 - custom font + favicon
+- personalized greeting feature
+- theme options [orange and white]
 
 ## Screenshot
-![image](./assets/project_ss_update.png)
+![image](./assets/ss_f_1.png)
+![image](./assets/ss_f_2.png)
 
 ## Run Locally
 1. clone the repo
@@ -17,8 +20,8 @@ a website to serve as a card to wish people on halloween
 ## Credits
 - made by me
 - font: [Nosifer - Google Fonts](https://fonts.google.com/specimen/Nosifer?preview.script=Latn)
-- bg: [pinterest](https://in.pinterest.com/pin/89368373846747038/)
-- ghost asset: [pinterest](https://in.pinterest.com/pin/987132812068107935/)
+- bg: [pinterest](https://in.pinterest.com/)
+- assets: [pinterest](https://in.pinterest.com/)
 
 > AI USAGE:
 > - generate green coloured glow effect for text (only the text shadow properties values)
